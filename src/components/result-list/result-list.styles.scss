@@ -1,0 +1,43 @@
+.result-list {
+    margin-bottom: .5rem;
+    background-color: white;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem;
+
+    .result-info {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        align-items: center;
+
+        &__image {
+            height: 40px;
+            width: 40px;
+            clip-path: circle(45%);
+            margin-right: 1rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .result-status {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        align-items: center;
+
+        &__indicator {
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            clip-path: circle(40%);
+            margin-right: .5rem;
+        }
+    }
+}

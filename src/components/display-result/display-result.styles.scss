@@ -1,0 +1,19 @@
+.display-result {
+    height: 700px;
+    width: 30%; 
+    margin-bottom: 1rem;
+    overflow-y: scroll;
+    padding-right: .2rem;
+
+    &::-webkit-scrollbar {
+        width: 2px; 
+    }
+    &::-webkit-scrollbar-track {
+        padding: .3rem;
+      }
+    &::-webkit-scrollbar-thumb {
+        background-color: white;
+        outline: none;
+        border-radius: .3rem;
+    }
+}
