@@ -1,6 +1,10 @@
 import {CHARACTER_ACTION_TYPES} from './characters.types';
 
 
+export const cardToggle = () => ({
+    type: CHARACTER_ACTION_TYPES.CARD_TOGGLE
+});
+
 export const fetchingStarted = () => (
     {
         type: CHARACTER_ACTION_TYPES.IS_FETCHING,
