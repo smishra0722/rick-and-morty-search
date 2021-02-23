@@ -1,0 +1,3 @@
+export const CARD_ACTION_TYPES = {
+    STORE_CARD_DATA: 'STORE_CARD_DATA'
+}
